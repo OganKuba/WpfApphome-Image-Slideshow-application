@@ -1,0 +1,15 @@
+<Window x:Class="WpfApphome.SlideshowWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SlideshowWindow" Height="768" Width="1024" WindowStyle="None" ShowInTaskbar="False"
+        MinWidth="1024" MinHeight="768" MaxWidth="1024" MaxHeight="768"
+        ResizeMode="NoResize">
+    <Grid x:Name="SlideshowGrid">
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Play/Pause slideshow" Click="PlayPause_Click"/>
+                <MenuItem Header="Stop slideshow" Click="Stop_Click"/>
+            </ContextMenu>
+        </Grid.ContextMenu>
+    </Grid>
+</Window>
